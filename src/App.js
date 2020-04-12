@@ -1,4 +1,5 @@
 import React from 'react';
+import cvicon from './cvicon.svg';
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,16 +9,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <a href="https://alexeyqu.github.io/AQ_CV.pdf" itemprop="sameAs">
+            <img src={cvicon} alt="CV icon" />
+          </a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
